@@ -210,27 +210,34 @@ window.addEventListener('load', () => {
 
 // Form Submission
 const contactForm = document.getElementById('contact-form');
+const submitButton = contactForm.querySelector('button[type="submit"]');
 
 contactForm.addEventListener('submit', async (e) => {
   e.preventDefault();
-  const formData = new FormData(contactForm);
+
+  // Disable the submit button and show loading state
+  submitButton.disabled = true;
+  submitButton.innerHTML = 'Sending...';
 
   try {
-    await emailjs.send(
-      'service_hno02jo',
-      'template_fm1oiza',
-      {
-        from_name: formData.get('name'),
-        from_email: formData.get('email'),
-        subject: formData.get('subject'),
-        message: formData.get('message'),
-      },
-      'N81FOQih4FIfB5U5l'
+    // Send the email using EmailJS
+    await emailjs.sendForm(
+      'service_hno02jo', // Your EmailJS Service ID
+      'template_fm1oiza', // Your EmailJS Template ID
+      contactForm, // The form element
+      'N81FOQih4FIfB5U5l' // Your EmailJS Public Key (User ID)
     );
+
+    // Show success message
     alert('Message sent successfully!');
-    contactForm.reset();
+    contactForm.reset(); // Reset the form
   } catch (error) {
+    // Show error message
     console.error('Failed to send message:', error);
     alert('Failed to send message. Please try again later.');
+  } finally {
+    // Re-enable the submit button and reset its text
+    submitButton.disabled = false;
+    submitButton.innerHTML = 'Send Message';
   }
 });

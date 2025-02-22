@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favour Onyenike - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+<nav class="nav">
+    <div class="container">
+      <a href="#" class="logo">Favour Onyenike</a>
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-button" aria-label="Toggle menu" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+      <!-- Desktop Menu -->
+      <ul class="desktop-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- Mobile Menu -->
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="tag">&lt;hello&gt;</div>
+        <h1>Hi, I'm Favour Onyenike</h1>
+        <p>Frontend Developer crafting pixel-perfect, responsive websites</p>
+        <div class="buttons">
+            <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">
+                Get in Touch
+              </button>
+              <a href="favour onyenike CV.pdf" download="Favour_Onyenike_CV.pdf" class="btn-outline" style="text-decoration: none;">
+                Download CV
+              </a>
+        </div>
+        <div class="tag">&lt;/hello&gt;</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+ <!-- About Section -->
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+      
+      
+      <div class="about-content">
+        <!-- Image -->
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop" alt="Favour Onyenike">
+        </div>
+        <!-- Text -->
+        <div class="about-text">
+            <h2>About Me</h2> <!-- Heading outside the flex container -->
+          <p>
+            I'm a passionate frontend developer with a keen eye for design and a commitment to creating seamless user experiences.
+          </p>
+          <div class="skills">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience">
+    <div class="container">
+    
+      <h2>Experience</h2>
+      <div class="experience-cards">
+        <div class="card">
+          <h3>Senior Frontend Developer</h3>
+          <p class="company">Tech Corp</p>
+          <p class="date">2022 - Present</p>
+          <p class="description">Led frontend development for multiple high-impact projects.</p>
+        </div>
+        <div class="card">
+          <h3>Frontend Developer</h3>
+          <p class="company">Web Solutions Inc</p>
+          <p class="date">2020 - 2022</p>
+          <p class="description">Developed responsive websites and web applications.</p>
+        </div>
+        <div class="card">
+          <h3>Junior Developer</h3>
+          <p class="company">StartUp Hub</p>
+          <p class="date">2019 - 2020</p>
+          <p class="description">Collaborated on various web projects.</p>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      
+      <h2>Projects</h2>
+      <p>A showcase of my recent web development projects</p>
+      <div class="project-cards">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="image-carousel">
+            <img src="https://via.placeholder.com/800x450" alt="Project 1" class="active">
+            <img src="https://via.placeholder.com/800x450" alt="Project 1">
+            <img src="https://via.placeholder.com/800x450" alt="Project 1">
+          </div>
+          <div class="content">
+            <h3>E-Commerce Platform</h3>
+            <p>A full-featured e-commerce platform with cart functionality.</p>
+            <div class="technologies">
+              <span>Next.js</span>
+              <span>TypeScript</span>
+              <span>Stripe</span>
+            </div>
+            <div class="buttons">
+              <a href="#" class="btn-code"><i class="fas fa-code"></i> Code</a>
+              <a href="#" class="btn-demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="image-carousel">
+            <img src="https://via.placeholder.com/800x450" alt="Project 2" class="active">
+            <img src="https://via.placeholder.com/800x450" alt="Project 2">
+            <img src="https://via.placeholder.com/800x450" alt="Project 2">
+          </div>
+          <div class="content">
+            <h3>Task Management App</h3>
+            <p>A collaborative task management application with real-time updates.</p>
+            <div class="technologies">
+              <span>React</span>
+              <span>Firebase</span>
+              <span>Material-UI</span>
+            </div>
+            <div class="buttons">
+              <a href="#" class="btn-code"><i class="fas fa-code"></i> Code</a>
+              <a href="#" class="btn-demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="image-carousel">
+            <img src="https://via.placeholder.com/800x450" alt="Project 3" class="active">
+            <img src="https://via.placeholder.com/800x450" alt="Project 3">
+            <img src="https://via.placeholder.com/800x450" alt="Project 3">
+          </div>
+          <div class="content">
+            <h3>Portfolio Website</h3>
+            <p>A modern portfolio website with dark mode and animations.</p>
+            <div class="technologies">
+              <span>Next.js</span>
+              <span>Framer Motion</span>
+              <span>Tailwind CSS</span>
+            </div>
+            <div class="buttons">
+              <a href="#" class="btn-code"><i class="fas fa-code"></i> Code</a>
+              <a href="#" class="btn-demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+<section id="reviews" class="reviews">
+    <div class="container">
+      <div class="tag">&lt;reviews&gt;</div>
+      <h2>Client Reviews</h2>
+      <!-- Add Review Button -->
+      
+      <!-- Reviews Grid -->
+      <div class="review-cards" id="review-cards">
+        <!-- Reviews will be dynamically added here -->
+      </div>
+      <button id="add-review-button" class="add-review-button">
+        Add Review
+      </button>
+      <!-- Review Form Popup -->
+   <!-- Review Form Popup -->
+<div id="review-popup" class="review-popup">
+    <div class="popup-content">
+      <span id="close-popup" class="close-popup">&times;</span>
+      <h3>Leave a Review</h3>
+      <form id="review-form" class="review-form">
+        <div class="form-group">
+          <label for="review-name">Name</label>
+          <input type="text" id="review-name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label>Rating</label>
+          <div class="star-rating">
+            <span class="star" data-rating="1">&#9733;</span>
+            <span class="star" data-rating="2">&#9733;</span>
+            <span class="star" data-rating="3">&#9733;</span>
+            <span class="star" data-rating="4">&#9733;</span>
+            <span class="star" data-rating="5">&#9733;</span>
+          </div>
+          <input type="hidden" id="review-rating" name="rating" required>
+        </div>
+        <div class="form-group">
+          <label for="review-comment">Comment</label>
+          <textarea id="review-comment" name="comment" required></textarea>
+        </div>
+        <button type="submit">Submit Review</button>
+      </form>
+    </div>
+  </div>
+      
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stat-item">
+        <h2 class="counter" data-target="80">0</h2>
+        <span>+</span>
+        <h3>Happy Customers</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel harum magni quae.</p>
+    </div>
+    <div class="stat-item">
+        <h2 class="counter" data-target="120">0</h2>
+        <span>+</span>
+        <h3>Projects Completed</h3>
+        <p>Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue.</p>
+    </div>
+    <div class="stat-item">
+        <h2 class="counter" data-target="23000">0</h2>
+        <span>k+</span>
+        <h3>Lines of Code</h3>
+        <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat.</p>
+    </div>
+    <div class="stat-item">
+        <h2 class="counter" data-target="85">0</h2>
+        <span>+</span>
+        <h3>Positive Feedback</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+</section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+     
+      <h2>Get in Touch</h2>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <h3>Contact Information</h3>
+          <div class="info">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Asaba, Nigeria</p>
+          </div>
+          <div class="info">
+            <i class="fas fa-envelope"></i>
+            <p>onyenikefavour8@gmail.com</p>
+          </div>
+          <div class="info">
+            <i class="fas fa-phone"></i>
+            <p>+234 902 268 3295</p>
+          </div>
+          <div class="socials">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </div>
+      
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <!-- Navigation Links -->
+      <div>
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+  
+      <!-- Social Media Links -->
+      <div>
+        <h3>Social</h3>
+        <div class="socials">
+          <a href="https://github.com/Favour-Onyenike" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/favour.ogo_/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://x.com/favour68099078" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+  
+      <!-- Contact Information -->
+      <div>
+        <h3>Contact</h3>
+        <div class="contact-info">
+          <p><i class="fas fa-map-marker-alt"></i> Asaba, Nigeria</p>
+          <p><i class="fas fa-envelope"></i> onyenikefavour8@gmail.com</p>
+          <p><i class="fas fa-phone"></i> +234 902 268 3295 </p>
+        </div>
+      </div>
+  
+      <!-- Copyright -->
+        
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -7,9 +7,19 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Preload Fonts -->
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" as="style">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
+
+<!-- Preload Images -->
+<link rel="preload" href="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop" as="image">
 </head>
 <body>
   <!-- Navigation -->
+   <!-- Loader -->
+  <div id="loader" class="loader">
+    <div class="loader-spinner"></div>
+  </div>
 <nav class="nav">
     <div class="container">
       <a href="#" class="logo">Favour Onyenike</a>
@@ -70,13 +80,16 @@
       <div class="about-content">
         <!-- Image -->
         <div class="about-image">
-          <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop" alt="Favour Onyenike">
+          <img src="img/me.jpg" alt="Favour Onyenike">
         </div>
         <!-- Text -->
         <div class="about-text">
             <h2>About Me</h2> <!-- Heading outside the flex container -->
           <p>
-            I'm a passionate frontend developer with a keen eye for design and a commitment to creating seamless user experiences.
+            I am Favour Onyenike a 22 year old frontend developer from Delta state. I am a results-oriented Computer Science student with a strong foundation in programming and web
+            development. Skilled in designing and implementing innovative projects such as APIs, websites,
+            and interactive games. Eager to leverage technical expertise and problem-solving abilities in a
+            challenging role to drive digital solutions and advance career growth.
           </p>
           <div class="skills">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
@@ -98,16 +111,16 @@
       <h2>Experience</h2>
       <div class="experience-cards">
         <div class="card">
-          <h3>Senior Frontend Developer</h3>
-          <p class="company">Tech Corp</p>
-          <p class="date">2022 - Present</p>
-          <p class="description">Led frontend development for multiple high-impact projects.</p>
+          <h3>Education.</h3>
+          <p class="company">Baze University Abuja</p>
+          <p class="date">Expected graduation: 2026</p>
+          <p class="description">Bsc. Computer Science</p>
         </div>
         <div class="card">
-          <h3>Frontend Developer</h3>
-          <p class="company">Web Solutions Inc</p>
-          <p class="date">2020 - 2022</p>
-          <p class="description">Developed responsive websites and web applications.</p>
+          <h3>Cyber Security Intern</h3>
+          <p class="company">Corittech solutions Lmt.</p>
+          <p class="date">February-April 2025</p>
+          <p class="description">learned networking and participated in cyber security projects.</p>
         </div>
         <div class="card">
           <h3>Junior Developer</h3>
@@ -151,17 +164,17 @@
         <!-- Project 2 -->
         <div class="project-card">
           <div class="image-carousel">
-            <img src="https://via.placeholder.com/800x450" alt="Project 2" class="active">
-            <img src="https://via.placeholder.com/800x450" alt="Project 2">
-            <img src="https://via.placeholder.com/800x450" alt="Project 2">
+            <img src="img/hotel1.jpg" alt="Project 2" class="active">
+            <img src="img/hotel2.jpg" alt="Project 2">
+            <img src="img/hotel3.jpg" alt="Project 2">
           </div>
           <div class="content">
-            <h3>Task Management App</h3>
-            <p>A collaborative task management application with real-time updates.</p>
+            <h3>Hotel website</h3>
+            <p>A website to showcase La-posh signature suites and help manage their bookings.</p>
             <div class="technologies">
-              <span>React</span>
-              <span>Firebase</span>
-              <span>Material-UI</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
             </div>
             <div class="buttons">
               <a href="#" class="btn-code"><i class="fas fa-code"></i> Code</a>
@@ -173,21 +186,21 @@
         <!-- Project 3 -->
         <div class="project-card">
           <div class="image-carousel">
-            <img src="https://via.placeholder.com/800x450" alt="Project 3" class="active">
-            <img src="https://via.placeholder.com/800x450" alt="Project 3">
-            <img src="https://via.placeholder.com/800x450" alt="Project 3">
+            <img src="img/portfolio.jpg" alt="Project 3" class="active">
+            <img src="img/portfolio2.jpg" alt="Project 3">
+            <img src="img/portfolio3.jpg" alt="Project 3">
           </div>
           <div class="content">
             <h3>Portfolio Website</h3>
             <p>A modern portfolio website with dark mode and animations.</p>
             <div class="technologies">
-              <span>Next.js</span>
-              <span>Framer Motion</span>
-              <span>Tailwind CSS</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
             </div>
             <div class="buttons">
-              <a href="#" class="btn-code"><i class="fas fa-code"></i> Code</a>
-              <a href="#" class="btn-demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+              <a href="https://github.com/Favour-Onyenike/PORTFOLIO/blob/main/index.html" class="btn-code"><i class="fas fa-code"></i> Code</a>
+              <a href="https://github.com/Favour-Onyenike/PORTFOLIO" class="btn-demo"><i class="fas fa-external-link-alt"></i> Demo</a>
             </div>
           </div>
         </div>
@@ -245,28 +258,28 @@
 
   <section class="stats">
     <div class="stat-item">
-        <h2 class="counter" data-target="80">0</h2>
+        <h2 class="counter" data-target="10">0</h2>
         <span>+</span>
         <h3>Happy Customers</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel harum magni quae.</p>
+        <p>I have completed many projects ensuring customer satisfaction.</p>
     </div>
     <div class="stat-item">
-        <h2 class="counter" data-target="120">0</h2>
+        <h2 class="counter" data-target="15">0</h2>
         <span>+</span>
         <h3>Projects Completed</h3>
-        <p>Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue.</p>
+        <p>both personal and cliebt projects completed.</p>
     </div>
     <div class="stat-item">
         <h2 class="counter" data-target="23000">0</h2>
         <span>k+</span>
         <h3>Lines of Code</h3>
-        <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat.</p>
+        <p>honestly just guessing but im sure its more.</p>
     </div>
     <div class="stat-item">
         <h2 class="counter" data-target="85">0</h2>
         <span>+</span>
         <h3>Positive Feedback</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>please leave a review above.</p>
     </div>
 </section>
 

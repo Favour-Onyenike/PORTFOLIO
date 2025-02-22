@@ -1,3 +1,21 @@
+
+// Hide loader when page is fully loaded
+window.addEventListener("load", function () {
+  console.log("Page fully loaded"); // Debugging line
+  const loader = document.getElementById("loader");
+  loader.style.display = "none";
+});
+
+// Backup: Hide loader after 5 seconds
+setTimeout(function () {
+  const loader = document.getElementById("loader");
+  if (loader) {
+    console.log("Loader hidden by timeout"); // Debugging line
+    loader.style.display = "none";
+  }
+}, 5000); // 5000 milliseconds = 5 seconds
+
+
 document.addEventListener("DOMContentLoaded", () => {
   const counters = document.querySelectorAll('.counter');
   const speed = 100; // Adjust speed of counting
@@ -39,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   })
 
-  // You can add more JavaScript functionality here as needed
+  
 })
 
 // Mobile Menu Toggle
@@ -53,14 +71,29 @@ mobileMenuButton.addEventListener('click', () => {
 });
 
 // Image Carousel
-const carouselImages = document.querySelectorAll('.image-carousel img');
-let currentImageIndex = 0;
+const carousels = document.querySelectorAll('.image-carousel');
 
-setInterval(() => {
-  carouselImages[currentImageIndex].style.opacity = 0;
-  currentImageIndex = (currentImageIndex + 1) % carouselImages.length;
-  carouselImages[currentImageIndex].style.opacity = 1;
-}, 5000);
+carousels.forEach((carousel) => {
+  const images = carousel.querySelectorAll('img');
+  let currentImageIndex = 0;
+
+  // Initialize: Set the first image to be visible
+  images[currentImageIndex].classList.add('active');
+
+  setInterval(() => {
+    // Fade out the current image
+    images[currentImageIndex].classList.remove('active');
+
+    // Calculate the next image index
+    const nextImageIndex = (currentImageIndex + 1) % images.length;
+
+    // Fade in the next image
+    images[nextImageIndex].classList.add('active');
+
+    // Update the current image index
+    currentImageIndex = nextImageIndex;
+  }, 5000); // Change image every 5 seconds
+});
 
 // Array to store reviews
 // Array to store reviews

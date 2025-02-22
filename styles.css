@@ -1069,11 +1069,11 @@ p {
 /* Hero Section */
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 2rem; /* Smaller font size for mobile */
+    font-size: 3.3rem; /* Smaller font size for mobile */
   }
 
   .hero p {
-    font-size: 1rem; /* Smaller font size for mobile */
+    font-size: 1.5rem; /* Smaller font size for mobile */
   }
 
   .buttons {

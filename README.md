@@ -29,42 +29,7 @@ I’m a data analyst and data entry professional who enjoys making information d
   <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
 </p>
 
-| What I do | How I do it |
-|:--|:--|
-| **Enter and verify data** | Maintain accurate records and check for missing or inconsistent values |
-| **Prepare and analyse data** | Clean datasets, query tables, and investigate business questions |
-| **Build clear reports** | Use dashboards and visual summaries to communicate findings |
-| **Present information** | Make insights easier to understand with thoughtful visual design |
 
-## Selected projects
-
-### Olist E-Commerce Analytics
-
-An end-to-end analysis of roughly 99,000 marketplace orders. I prepared nine related tables, modelled the data, and built a Power BI dashboard to explore revenue, delivery, retention, and seller performance.
-
-**Python · MySQL · Power BI · DAX**  
-[View code](https://github.com/Favour-Onyenike/olist-ecommerce-analytics) · [Dashboard preview](img/olist-dashboard.webp)
-
-<p align="center">
-  <img src="img/olist-dashboard.webp" alt="Olist Power BI overview dashboard" width="850" />
-</p>
-
-### Currency Converter
-
-A responsive currency calculator for converting amounts between currencies using current exchange rates.
-
-**HTML · CSS · JavaScript**  
-[View code](https://github.com/Favour-Onyenike/currency-converter-HTML) · [Open live demo](https://favour-onyenike.github.io/currency-converter-HTML/)
-
-<p align="center">
-  <img src="img/CURR1.jpg" alt="Currency Converter project preview" width="650" />
-</p>
-
-## Education & experience
-
-- **B.Sc. Computer Science — First Class Honours**, Baze University
-- **University of Plymouth International College**, 2020–2021
-- **Cyber Security Intern**, Corittech Solutions Ltd., February–April 2025
 
 ## Let’s connect
 

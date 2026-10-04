@@ -111,3 +111,6 @@
 @media(max-width:650px){.hero-copy{transform:none}}
 /* Center hero copy on mobile. */
 @media(max-width:650px){.hero-copy{text-align:center}.hero-copy .eyebrow{justify-content:center}.hero h1,.hero-summary{text-align:center}.hero-summary{margin-left:auto;margin-right:auto}.hero-actions,.hero-socials,.hero-meta{justify-content:center}}
+/* Keep small action arrows in text style instead of mobile emoji glyphs. */
+.button span,.nav-cta span,.hero-socials a span,.contact-socials a span{font-family:Arial,sans-serif;font-variant-emoji:text}
+.hero-socials a,.contact-socials a{font-variant-emoji:text}

@@ -1,0 +1,45 @@
+name: Publish portfolio site
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Assemble portfolio
+        run: |
+          mkdir -p _site/img
+          cp "Portfolio Website/index.html" _site/
+          cp "Portfolio Website/styles.css" _site/
+          cp "Portfolio Website/script.js" _site/
+          cp "Portfolio Website/Favour_Onyenike_Data_Analyst_Resume.docx" _site/
+          cp "Portfolio Website/img/favicon.svg" _site/img/
+          cp "Portfolio Website/img/favour-onyenike.webp" _site/img/
+          cp "Portfolio Website/img/olist-dashboard.webp" _site/img/
+          cp "Portfolio Website/img/CURR1.jpg" _site/img/
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,2 +1,84 @@
-# PORTFOLIO
-📊 analytics, 🗂️ data entry, 📈 projects, and 🎓 education. The description is filled in on GitHub; I haven’t created the repository yet.
+<div align="center">
+
+# Hi, I’m Favour Onyenike
+
+### Data Analyst · Data Entry Clerk
+
+I organise, validate, and analyse information so it is accurate, clear, and useful.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-View_my_work-26372d?style=for-the-badge)](https://github.com/Favour-Onyenike/Portfolio-Website)
+[![GitHub](https://img.shields.io/badge/GitHub-Favour--Onyenike-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Favour-Onyenike)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/favour-onyenike)
+[![Email](https://img.shields.io/badge/Email-Say_hello-3c632e?style=for-the-badge&logo=gmail&logoColor=white)](mailto:onyenikefavour8@gmail.com)
+
+</div>
+
+---
+
+## About
+
+I’m a data analyst and data entry professional who enjoys making information dependable and easier to use. I graduated from **Baze University** with **First Class Honours in B.Sc. Computer Science**. I bring care and structure to data entry, quality checks, analysis, and reporting.
+
+## Toolkit
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel" />
+  <img src="https://img.shields.io/badge/SQL-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL and MySQL" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
+</p>
+
+| What I do | How I do it |
+|:--|:--|
+| **Enter and verify data** | Maintain accurate records and check for missing or inconsistent values |
+| **Prepare and analyse data** | Clean datasets, query tables, and investigate business questions |
+| **Build clear reports** | Use dashboards and visual summaries to communicate findings |
+| **Present information** | Make insights easier to understand with thoughtful visual design |
+
+## Selected projects
+
+### Olist E-Commerce Analytics
+
+An end-to-end analysis of roughly 99,000 marketplace orders. I prepared nine related tables, modelled the data, and built a Power BI dashboard to explore revenue, delivery, retention, and seller performance.
+
+**Python · MySQL · Power BI · DAX**  
+[View code](https://github.com/Favour-Onyenike/olist-ecommerce-analytics) · [Dashboard preview](img/olist-dashboard.webp)
+
+<p align="center">
+  <img src="img/olist-dashboard.webp" alt="Olist Power BI overview dashboard" width="850" />
+</p>
+
+### Currency Converter
+
+A responsive currency calculator for converting amounts between currencies using current exchange rates.
+
+**HTML · CSS · JavaScript**  
+[View code](https://github.com/Favour-Onyenike/currency-converter-HTML) · [Open live demo](https://favour-onyenike.github.io/currency-converter-HTML/)
+
+<p align="center">
+  <img src="img/CURR1.jpg" alt="Currency Converter project preview" width="650" />
+</p>
+
+## Education & experience
+
+- **B.Sc. Computer Science — First Class Honours**, Baze University
+- **University of Plymouth International College**, 2020–2021
+- **Cyber Security Intern**, Corittech Solutions Ltd., February–April 2025
+
+## Let’s connect
+
+Open to opportunities in data analysis and data entry.
+
+- [LinkedIn](https://www.linkedin.com/in/favour-onyenike)
+- [GitHub](https://github.com/Favour-Onyenike)
+- [Email](mailto:onyenikefavour8@gmail.com)
+- [Download my CV](Favour_Onyenike_Data_Analyst_Resume.docx)
+
+---
+
+<div align="center">
+
+*Thanks for visiting.*
+
+</div>

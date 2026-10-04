@@ -109,3 +109,5 @@
 :root[data-theme="dark"] .hero-actions .button-primary{background:#86ae5e;color:#17211b}
 @media(max-width:650px){.demo-nav-actions{gap:7px}.demo-nav-actions .theme-toggle{padding:8px}.demo-nav-actions .theme-label{display:none}}
 @media(max-width:650px){.hero-copy{transform:none}}
+/* Center hero copy on mobile. */
+@media(max-width:650px){.hero-copy{text-align:center}.hero-copy .eyebrow{justify-content:center}.hero h1,.hero-summary{text-align:center}.hero-summary{margin-left:auto;margin-right:auto}.hero-actions,.hero-socials,.hero-meta{justify-content:center}}

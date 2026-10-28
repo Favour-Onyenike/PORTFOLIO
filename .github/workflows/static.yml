@@ -36,6 +36,9 @@ jobs:
           cp "Portfolio Website/img/favour-onyenike.webp" _site/img/
           cp "Portfolio Website/img/olist-dashboard.webp" _site/img/
           cp "Portfolio Website/img/CURR1.jpg" _site/img/
+          cp "Portfolio Website/img/ea-fc24-summary.png" _site/img/
+          cp "Portfolio Website/img/ea-fc24-players.png" _site/img/
+          cp "Portfolio Website/img/ea-fc24-team.png" _site/img/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:

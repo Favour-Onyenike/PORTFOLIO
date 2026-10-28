@@ -29,7 +29,10 @@ jobs:
         run: |
           mkdir -p _site/img
           cp "Portfolio Website/index.html" _site/
+          cp "Portfolio Website/olist-project.html" _site/
+          cp "Portfolio Website/ea-fc24-project.html" _site/
           cp "Portfolio Website/styles.css" _site/
+          cp "Portfolio Website/project-pages.css" _site/
           cp "Portfolio Website/script.js" _site/
           cp "Portfolio Website/Favour_Onyenike_Data_Analyst_Resume.docx" _site/
           cp "Portfolio Website/img/favicon.svg" _site/img/
@@ -39,6 +42,8 @@ jobs:
           cp "Portfolio Website/img/ea-fc24-summary.png" _site/img/
           cp "Portfolio Website/img/ea-fc24-players.png" _site/img/
           cp "Portfolio Website/img/ea-fc24-team.png" _site/img/
+          mkdir -p _site/img/olist-project
+          cp "Portfolio Website/img/olist-project/"*.png _site/img/olist-project/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
